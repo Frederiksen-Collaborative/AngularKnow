@@ -1,6 +1,3 @@
-body {
-    padding-top: 50px;
-}
 .starter-template {
     padding: 40px 15px;
     text-align: center;
@@ -10,4 +7,11 @@ body {
 }
 .clean-link:hover{
     color: #fff;
+}
+.norm{
+
+}
+.norm:hover{
+    color: #5e5e5e !important;
+    font-weight: bold;
 }
