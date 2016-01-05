@@ -1,0 +1,20 @@
+.starter-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+.clean-link {
+    text-decoration: none !important;
+}
+.clean-link:hover{
+    color: #fff;
+}
+.norm{
+
+}
+.norm:hover{
+    color: #5e5e5e !important;
+    font-weight: bold;
+}
+.boxed {
+    outline: dashed;
+}

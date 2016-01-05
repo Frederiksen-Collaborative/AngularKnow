@@ -1,0 +1,10 @@
+{
+  "name": "angularKnow",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular": "angular/bower-angular#~1.4.8",
+    "angular-resource": "angular/bower-angular-resource#~1.4.8",
+    "angular-messages": "angular/bower-angular-messages#~1.4.8",
+    "angular-bootstrap": "angular-ui/bootstrap-bower#~0.14.3"
+  }
+}
