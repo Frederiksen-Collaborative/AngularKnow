@@ -10,6 +10,10 @@
                 {
                     name: 'Lesson 1',
                     link: 'lesson_1'
+                },
+                {
+                    name: 'Lesson 2',
+                    link: 'lesson_2'
                 }
             ];
 

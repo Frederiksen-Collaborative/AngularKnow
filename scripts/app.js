@@ -3,5 +3,5 @@
  */
 (function(){
     'use strict';
-    angular.module("app", ['app.MainModule','app.services', 'app.lesson1']);
+    angular.module("app", ['ngMessages','ngResource','app.MainModule','app.services', 'app.lesson1', 'app.lesson2']);
 }());

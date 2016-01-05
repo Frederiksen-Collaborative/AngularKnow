@@ -23,5 +23,14 @@
                 }
             };
         }])
+        .factory('ExampleJSON',['$resource', function($resource){
+            return $resource('http://json-generator.appspot.com/api/json/get/bZzujPHjGW',{},{
+                'get':{
+                    METHOD: 'GET',
+                    params: {},
+                    isArray: true
+                }
+            });
+        }])
     ;
 }());
