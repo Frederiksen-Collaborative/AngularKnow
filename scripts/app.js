@@ -1,6 +1,7 @@
 /**
  * Created by sfrederiksen on 1/4/2016.
  */
-
-'use strict';
-angular.module('angKnoApp', ['angKnoApp.MainModule','angKnoApp.services']);
+(function(){
+    'use strict';
+    angular.module("app", ['app.MainModule','app.services', 'app.lesson1']);
+}());
