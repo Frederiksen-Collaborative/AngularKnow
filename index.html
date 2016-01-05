@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="angKnoApp">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +20,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body ng-controller="partialsController">
 
 <header>
     <nav class="navbar navbar-inverse">
@@ -43,9 +43,9 @@
     <div class="col-md-12">
             <span id="home">
                 <!-- this is where the main code will go -->
-                <ul>
+                <ul ng-repeat="tab in partials">
                     <li>
-                        <a href="partials/lesson_1.htm" class="clean-link norm">Lesson 1</a>
+                        <a ng-click="loadPartial(tab.link)" class="clean-link norm">{{tab.name}}</a>
                     </li>
                 </ul>
             </span>
@@ -57,7 +57,7 @@
 
 <!-- Do the script stuff down here for speed -->
 <script type="text/javascript" src="res/node_modules/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="res/node_modules/angular/angular.min.js"></script>
+<script type="text/javascript" src="res/node_modules/angular/angular.js"></script>
 
 <!-- Custom scripts -->
 <script src="scripts/app.js"></script>
