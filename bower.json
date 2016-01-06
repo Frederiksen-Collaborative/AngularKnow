@@ -5,6 +5,8 @@
     "angular": "angular/bower-angular#~1.4.8",
     "angular-resource": "angular/bower-angular-resource#~1.4.8",
     "angular-messages": "angular/bower-angular-messages#~1.4.8",
-    "angular-bootstrap": "angular-ui/bootstrap-bower#~0.14.3"
+    "angular-bootstrap": "angular-ui/bootstrap-bower#~0.14.3",
+    "ngstorage": "gsklee/ngStorage#~0.3.10",
+    "angular-route": "angular/bower-angular-route#~1.4.8"
   }
 }

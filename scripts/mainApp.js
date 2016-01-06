@@ -14,6 +14,14 @@
                 {
                     name: 'Lesson 2',
                     link: 'lesson_2'
+                },
+                {
+                    name: 'Lesson 3',
+                    link: 'lesson_3'
+                },
+                {
+                    name: 'Storage Test',
+                    link: 'storage_test_partial'
                 }
             ];
 
