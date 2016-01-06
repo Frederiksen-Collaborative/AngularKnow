@@ -13,17 +13,21 @@
 
     //begin module
     angular.module("app.lesson1",[])
-        .controller("lesson1Controller",['$scope','$log', '$filter', function($scope, $log, $filter){
-            $log.info("this is some info");
-            $log.debug("this is some info");
-            $log.error("this is some info");
-            $log.warn("this is some info");
-            $log.log("this is some info");
+        .controller("lesson1Controller",['$scope','$log', '$filter','$timeout', function($scope, $log, $filter,$timeout){
 
             $scope.name = "Steven";
             $scope.formattedName = $filter('uppercase')($scope.name);
 
+            $scope.formatName = function(){
+                $scope.formattedName = $filter('uppercase')($scope.name);
+            };
+
             $log.info($scope.formattedName);
+
+            $timeout(function(){
+                $scope.name = "Jennifer";
+                $timeout($scope.formatName, 1000);
+            },3000);
         }])
     ;
 }());
