@@ -2,30 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1fac078-fd99-41de-8bdb-ce391bd1057c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/lesson_3.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/storage_test_partial.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/angular-route.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/angular-route.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/angular-route.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/ngStorage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/ngStorage.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/lesson_3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/storage_mod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/storage_test.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/res/bower_components/angular/angular.min.js.gzip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/res/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/res/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
@@ -43,10 +19,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/lesson_1.htm" afterPath="$PROJECT_DIR$/partials/lesson_1.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/lesson_2.htm" afterPath="$PROJECT_DIR$/partials/lesson_2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/lesson_3.htm" afterPath="$PROJECT_DIR$/partials/lesson_3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/storage_test_partial.htm" afterPath="$PROJECT_DIR$/partials/storage_test_partial.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-bootstrap/.bower.json" afterPath="$PROJECT_DIR$/res/bower_components/angular-bootstrap/.bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-bootstrap/.gitignore" afterPath="$PROJECT_DIR$/res/bower_components/angular-bootstrap/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-bootstrap/.npmignore" afterPath="$PROJECT_DIR$/res/bower_components/angular-bootstrap/.npmignore" />
@@ -75,6 +54,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-resource/bower.json" afterPath="$PROJECT_DIR$/res/bower_components/angular-resource/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-resource/index.js" afterPath="$PROJECT_DIR$/res/bower_components/angular-resource/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-resource/package.json" afterPath="$PROJECT_DIR$/res/bower_components/angular-resource/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-route/.bower.json" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-route/README.md" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-route/angular-route.js" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/angular-route.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-route/angular-route.min.js" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/angular-route.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-route/angular-route.min.js.map" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/angular-route.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-route/bower.json" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-route/index.js" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-route/package.json" afterPath="$PROJECT_DIR$/res/bower_components/angular-route/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular/.bower.json" afterPath="$PROJECT_DIR$/res/bower_components/angular/.bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular/README.md" afterPath="$PROJECT_DIR$/res/bower_components/angular/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular/angular-csp.css" afterPath="$PROJECT_DIR$/res/bower_components/angular/angular-csp.css" />
@@ -84,6 +71,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular/bower.json" afterPath="$PROJECT_DIR$/res/bower_components/angular/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular/index.js" afterPath="$PROJECT_DIR$/res/bower_components/angular/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular/package.json" afterPath="$PROJECT_DIR$/res/bower_components/angular/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/ngstorage/.bower.json" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/ngstorage/.editorconfig" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/ngstorage/.gitattributes" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/ngstorage/.npmignore" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/ngstorage/LICENSE" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/ngstorage/README.md" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/ngstorage/bower.json" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/ngstorage/ngStorage.js" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/ngStorage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/ngstorage/ngStorage.min.js" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/ngStorage.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/ngstorage/package.js" afterPath="$PROJECT_DIR$/res/bower_components/ngstorage/package.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/node_modules/bootstrap/CHANGELOG.md" afterPath="$PROJECT_DIR$/res/node_modules/bootstrap/CHANGELOG.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/node_modules/bootstrap/Gruntfile.js" afterPath="$PROJECT_DIR$/res/node_modules/bootstrap/Gruntfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/node_modules/bootstrap/LICENSE" afterPath="$PROJECT_DIR$/res/node_modules/bootstrap/LICENSE" />
@@ -297,11 +294,15 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/node_modules/jquery/src/var/toString.js" afterPath="$PROJECT_DIR$/res/node_modules/jquery/src/var/toString.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/node_modules/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/res/node_modules/jquery/src/wrap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/app.js" afterPath="$PROJECT_DIR$/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/directives.js" afterPath="$PROJECT_DIR$/scripts/directives.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/lesson_1.js" afterPath="$PROJECT_DIR$/scripts/lesson_1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/lesson_2.js" afterPath="$PROJECT_DIR$/scripts/lesson_2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/lesson_3.js" afterPath="$PROJECT_DIR$/scripts/lesson_3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/mainApp.js" afterPath="$PROJECT_DIR$/scripts/mainApp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/services.js" afterPath="$PROJECT_DIR$/scripts/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/storage_mod.js" afterPath="$PROJECT_DIR$/scripts/storage_mod.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.css" afterPath="$PROJECT_DIR$/styles/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/storage_test.html" afterPath="$PROJECT_DIR$/views/storage_test.html" />
     </list>
     <ignored path="AngularKnow.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -388,11 +389,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lesson_3.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lesson_3.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/lesson_3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52208835">
-              <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.06827309">
+              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -439,6 +450,7 @@
         <option value="$PROJECT_DIR$/scripts/mainApp.js" />
         <option value="$PROJECT_DIR$/partials/lesson_3.htm" />
         <option value="$PROJECT_DIR$/scripts/lesson_3.js" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -953,8 +965,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/lesson_3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52208835">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06827309">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
           <folding />
         </state>
       </provider>
