@@ -6,22 +6,29 @@
 
     angular.module('app.MainModule',[])
         .controller('partialsController', ['$scope','$compile', 'Partials', function($scope, $compile, Partials){
-            $scope.partials = [
+            $scope.lessons = [
                 {
                     name: 'Lesson 1',
-                    link: 'lesson_1'
+                    link: 'lesson1'
                 },
                 {
                     name: 'Lesson 2',
-                    link: 'lesson_2'
+                    link: 'lesson2'
                 },
                 {
                     name: 'Lesson 3',
-                    link: 'lesson_3'
+                    link: 'lesson3'
                 },
                 {
+                    name: 'Lesson 4',
+                    link: 'lesson4'
+                }
+            ];
+
+            $scope.miscs = [
+                {
                     name: 'Storage Test',
-                    link: 'storage_test_partial'
+                    link: 'storage'
                 }
             ];
 
