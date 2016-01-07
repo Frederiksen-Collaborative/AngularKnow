@@ -16,5 +16,7 @@
     font-weight: bold;
 }
 .boxed {
+    width: 100%;
     outline: dashed;
+    overflow: auto;
 }
