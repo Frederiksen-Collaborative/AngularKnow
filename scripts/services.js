@@ -32,5 +32,14 @@
                 }
             });
         }])
+        .service("nameService", function(){
+            this.author = "Steven Frederiksen";
+
+            var self = this;
+
+            this.nameLength = function(){
+                return self.author.length;
+            };
+        })
     ;
 }());

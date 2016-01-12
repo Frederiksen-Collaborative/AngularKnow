@@ -1,4 +1,4 @@
-<div class="container" ng-controller="lesson3Controller">
+<div class="container-fluid">
     <div id="title">
         <h1><strong>Lesson 3</strong></h1><br><br>
     </div>
@@ -6,6 +6,11 @@
         <label>What is your Twitter handle?</label>
         <input type="text" ng-model="handle" />
     </div>
+
+    <div class="alert alert-warning" ng-if="handle.length < chars">
+        Must be at least {{chars}} characters
+    </div>
+
     <hr /> <!-- this is nice to know!!! -->
-    <h2>twitter.com/{{toLower()}}</h2>
+    <h2 ng-cloak>twitter.com/{{toLower()}}</h2>
 </div>

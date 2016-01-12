@@ -17,13 +17,12 @@
 
             $scope.handle = '';
 
+            $scope.chars = 5;
+
             $scope.toLower = function(){
                 return $filter('lowercase')($scope.handle);
             };
 
-            $scope.$watch('handle', function(n,o){
-                $log.info("handle changed:\n"+o+" -> "+n);
-            });
         }])
     ;
 }());

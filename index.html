@@ -42,27 +42,37 @@
         <h1><strong>AngularKnow</strong></h1>
     </div>
     <div class="col-md-12">
-            <span id="home">
+            <span id="lessonsList" class="col-md-6">
+                <h3>Lessons</h3>
                 <!-- this is where the main code will go -->
-                <ul ng-repeat="tab in partials">
-                    <li>
-                        <a ng-click="loadPartial(tab.link)" class="clean-link norm">{{tab.name}}</a>
+                <ul ng-repeat="tab in lessons">
+                    <li ng-cloak>
+                        <a ng-cloak href="#/lessons/{{tab.link}}" class="clean-link norm">{{tab.name}}</a>
+                    </li>
+                </ul>
+            </span>
+            <span id="miscList" class="col-md-6">
+                <h3>Misc</h3>
+                <!-- this is where the main code will go -->
+                <ul ng-repeat="tab in miscs">
+                    <li ng-cloak>
+                        <a ng-cloak href="#/misc/{{tab.link}}" class="clean-link norm">{{tab.name}}</a>
                     </li>
                 </ul>
             </span>
     </div>
-    <div class="col-lg-12 boxed" id="content">
+    <div class="col-lg-12 boxed" id="content" ng-view>
 
     </div>
 </div>
 
 <!-- Do the script stuff down here for speed -->
 <script src="res/node_modules/jquery/dist/jquery.min.js"></script>
-<script src="res/bower_components/angular/angular.min.js"></script>
+<script src="res/bower_components/angular/angular.js"></script>
 <script src="res/bower_components/angular-messages/angular-messages.min.js"></script>
 <script src="res/bower_components/angular-resource/angular-resource.min.js"></script>
 <script src="res/bower_components/ngstorage/ngStorage.min.js"></script>
-<script src="res/bower_components/angular-route/angular-route.min.js"></script>
+<script src="res/bower_components/angular-route/angular-route.js"></script>
 
 
 <!-- Custom scripts -->
@@ -70,9 +80,10 @@
 <script src="scripts/mainApp.js"></script>
 <script src="scripts/services.js"></script>
 <script src="scripts/directives.js"></script>
-<script src="scripts/lesson_1.js"></script>
-<script src="scripts/lesson_2.js"></script>
-<script src="scripts/lesson_3.js"></script>
+<script src="scripts/lesson1.js"></script>
+<script src="scripts/lesson2.js"></script>
+<script src="scripts/lesson3.js"></script>
+<script src="scripts/lesson4.js"></script>
 <script src="scripts/storage_mod.js"></script>
 
 
