@@ -1,5 +1,4 @@
 approve_by_comment: true
-<<<<<<< HEAD
 approve_regex: ^Approved
 reject_regex: ^Rejected
 reset_on_push: false
@@ -8,15 +7,3 @@ reviewers:
   - studeo14
   name: default
   required: 1
-=======
-approve_regex: 'Approved '
-reject_regex: '^Rejected '
-reset_on_push: true
-author_approval: ignored
-reviewers:
-    -
-        name: admins
-        required: 1
-        members:
-            - studeo14
->>>>>>> 107e9a297424e322291841f6ff3ab13cb8297e06
