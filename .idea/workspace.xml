@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1fac078-fd99-41de-8bdb-ce391bd1057c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/lesson1.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/lesson4.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/lesson4.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/partials/lesson_1.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/views/storage_test.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/lesson_2.htm" afterPath="$PROJECT_DIR$/partials/lesson2.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/partials/lesson_3.htm" afterPath="$PROJECT_DIR$/partials/lesson3.htm" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/lesson_1.js" afterPath="$PROJECT_DIR$/scripts/lesson1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/lesson_2.js" afterPath="$PROJECT_DIR$/scripts/lesson2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/lesson_3.js" afterPath="$PROJECT_DIR$/scripts/lesson3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/res/bower_components/angular/angular.min.js.gzip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/res/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/res/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
@@ -32,6 +22,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/lesson1.htm" afterPath="$PROJECT_DIR$/partials/lesson1.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/lesson2.htm" afterPath="$PROJECT_DIR$/partials/lesson2.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/lesson3.htm" afterPath="$PROJECT_DIR$/partials/lesson3.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/lesson4.htm" afterPath="$PROJECT_DIR$/partials/lesson4.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/storage_test_partial.htm" afterPath="$PROJECT_DIR$/partials/storage_test_partial.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-bootstrap/.bower.json" afterPath="$PROJECT_DIR$/res/bower_components/angular-bootstrap/.bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/bower_components/angular-bootstrap/.gitignore" afterPath="$PROJECT_DIR$/res/bower_components/angular-bootstrap/.gitignore" />
@@ -302,6 +296,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/node_modules/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/res/node_modules/jquery/src/wrap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/app.js" afterPath="$PROJECT_DIR$/scripts/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/directives.js" afterPath="$PROJECT_DIR$/scripts/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/lesson1.js" afterPath="$PROJECT_DIR$/scripts/lesson1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/lesson2.js" afterPath="$PROJECT_DIR$/scripts/lesson2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/lesson3.js" afterPath="$PROJECT_DIR$/scripts/lesson3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/lesson4.js" afterPath="$PROJECT_DIR$/scripts/lesson4.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/mainApp.js" afterPath="$PROJECT_DIR$/scripts/mainApp.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/services.js" afterPath="$PROJECT_DIR$/scripts/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/storage_mod.js" afterPath="$PROJECT_DIR$/scripts/storage_mod.js" />
