@@ -3,5 +3,13 @@
  */
 (function(){
     'use strict';
-    angular.module("app.directives",[]);
+    angular.module("app.directives",[])
+        .directive("searchResult", function(){
+            return {
+                restrict: 'EA',
+                templateUrl: 'partials/search_result_partial.html',
+                replace: true
+            };
+        })
+    ;
 }());

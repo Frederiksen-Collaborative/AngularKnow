@@ -12,6 +12,8 @@
 
             $scope.name = nameService.author;
 
+            $scope.loc = $location;
+
             $scope.$watch('name', function(){
                 nameService.author = $scope.name;
             });
