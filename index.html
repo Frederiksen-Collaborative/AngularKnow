@@ -8,9 +8,28 @@
 
     <title>AngularKnow</title>
 
-    <link rel="stylesheet" href="res/node_modules/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="res/node_modules/bootstrap/dist/css/bootstrap-theme.css" />
-    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="src/res/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="src/res/bower_components/bootstrap/dist/css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="src/styles/main.css" />
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="src/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="src/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="src/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="src/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="src/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="src/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="src/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="src/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="src/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="src/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/images/favicon-16x16.png">
+    <link rel="manifest" href="src/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
 
 
@@ -23,7 +42,7 @@
 <body ng-controller="partialsController">
 
 <header>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-fixed-top navbar-inverse">
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">AngularKnow</a>
@@ -41,39 +60,50 @@
     <div class="starter-template">
         <h1><strong>AngularKnow</strong></h1>
     </div>
-    <div class="col-md-12">
-            <span id="home">
+    <div class="col-md-12 link-list-content">
+            <span id="lessonsList" class="col-md-6">
+                <h3>Lessons</h3>
                 <!-- this is where the main code will go -->
-                <ul ng-repeat="tab in partials">
-                    <li>
-                        <a ng-click="loadPartial(tab.link)" class="clean-link norm">{{tab.name}}</a>
+                <ul>
+                    <li ng-repeat="tab in lessons" ng-cloak>
+                        <a ng-cloak href="#/lessons/{{tab.link}}" class="clean-link norm">{{tab.name}}</a>
+                    </li>
+                </ul>
+            </span>
+            <span id="miscList" class="col-md-6">
+                <h3>Misc</h3>
+                <!-- this is where the main code will go -->
+                <ul>
+                    <li ng-repeat="tab in miscs" ng-cloak>
+                        <a ng-cloak href="#/misc/{{tab.link}}" class="clean-link norm">{{tab.name}}</a>
                     </li>
                 </ul>
             </span>
     </div>
-    <div class="col-lg-12 boxed" id="content">
+    <div class="col-lg-12 boxed" id="content" ng-view>
 
     </div>
 </div>
 
 <!-- Do the script stuff down here for speed -->
-<script src="res/node_modules/jquery/dist/jquery.min.js"></script>
-<script src="res/bower_components/angular/angular.min.js"></script>
-<script src="res/bower_components/angular-messages/angular-messages.min.js"></script>
-<script src="res/bower_components/angular-resource/angular-resource.min.js"></script>
-<script src="res/bower_components/ngstorage/ngStorage.min.js"></script>
-<script src="res/bower_components/angular-route/angular-route.min.js"></script>
+<script src="src/res/bower_components/jquery/jquery.min.js"></script>
+<script src="src/res/bower_components/angular/angular.min.js"></script>
+<script src="src/res/bower_components/angular-messages/angular-messages.min.js"></script>
+<script src="src/res/bower_components/angular-resource/angular-resource.min.js"></script>
+<script src="src/res/bower_components/ngstorage/ngStorage.min.js"></script>
+<script src="src/res/bower_components/angular-route/angular-route.js"></script>
 
 
 <!-- Custom scripts -->
-<script src="scripts/app.js"></script>
-<script src="scripts/mainApp.js"></script>
-<script src="scripts/services.js"></script>
-<script src="scripts/directives.js"></script>
-<script src="scripts/lesson_1.js"></script>
-<script src="scripts/lesson_2.js"></script>
-<script src="scripts/lesson_3.js"></script>
-<script src="scripts/storage_mod.js"></script>
+<script src="src/scripts/app.js"></script>
+<script src="src/scripts/mainApp.js"></script>
+<script src="src/scripts/services.js"></script>
+<script src="src/scripts/directives.js"></script>
+<script src="src/scripts/lesson1.js"></script>
+<script src="src/scripts/lesson2.js"></script>
+<script src="src/scripts/lesson3.js"></script>
+<script src="src/scripts/lesson4.js"></script>
+<script src="src/scripts/storage_mod.js"></script>
 
 
 </body>
