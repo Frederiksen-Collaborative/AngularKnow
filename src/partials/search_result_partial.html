@@ -1,6 +1,6 @@
-<a href="#{{loc.path()}}" class="list-group-item">
-    <h4 class="list-group-item-heading">Doe, John</h4>
+<a ng-cloak ng-click="toDo()" href="#{{webLink}}" class="list-group-item">
+    <h4 class="list-group-item-heading">{{personName}}</h4>
     <p class="list-group-item-text">
-        This is an address
+        {{formatter({a:personAddress})}}
     </p>
 </a>

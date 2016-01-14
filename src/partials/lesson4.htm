@@ -1,17 +1,12 @@
 <div class="container-fluid">
     <div class="list-group">
-        <search-result></search-result>
-        <search-result></search-result>
-        <search-result></search-result>
-        <search-result></search-result>
-        <search-result></search-result>
-        <search-result></search-result>
-        <search-result></search-result>
-        <search-result></search-result>
-        <search-result></search-result>
-        <search-result></search-result>
-        <search-result></search-result>
-        <search-result></search-result>
-        <search-result></search-result>
+        <search-result
+                ng-repeat="res in person"
+                person-name="{{res.name}}"
+                person-address="{{res.address}}"
+                web-link="{{res.link}}"
+                to-do="res.func()"
+                formatter="res.form(a)"
+        ></search-result>
     </div>
 </div>

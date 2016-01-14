@@ -8,8 +8,20 @@
             return {
                 restrict: 'EA',
                 templateUrl: 'partials/search_result_partial.html',
-                replace: true
+                replace: true,
+                scope:{
+                    personName:"@",
+                    personAddress:"@",
+                    webLink:"@",
+                    toDo:"&",
+                    formatter:"&"
+                }
             };
         })
+        .controller("searchResultController",['$scope', '$location', function($scope,$location){
+
+
+
+        }])
     ;
 }());
