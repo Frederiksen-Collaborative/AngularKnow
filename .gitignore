@@ -1,3 +1,5 @@
 .idea
 node_modules
 src/res/bower_components
+bower_components
+build

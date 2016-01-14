@@ -10,5 +10,11 @@
     "angular-route": "angular/bower-angular-route#~1.4.8",
     "jquery": "components/jquery#~2.2.0",
     "bootstrap": "twbs/bootstrap#~3.3.6"
+  },
+  "exportsOverride":{
+    "bootstrap":{
+      "js":"**/bootstrap.js",
+      "css":"**/*.css"
+    }
   }
 }

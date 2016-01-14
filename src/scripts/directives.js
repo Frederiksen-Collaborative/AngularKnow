@@ -7,7 +7,7 @@
         .directive("searchResult", function(){
             return {
                 restrict: 'EA',
-                templateUrl: 'src/partials/search_result_partial.html',
+                templateUrl: 'partials/search_result_partial.html',
                 replace: true
             };
         })

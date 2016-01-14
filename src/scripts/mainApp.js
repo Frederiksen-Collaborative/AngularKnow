@@ -5,7 +5,7 @@
     'use strict';
 
     angular.module('app.MainModule',[])
-        .controller('partialsController', ['$scope','$compile', 'Partials', function($scope, $compile, Partials){
+        .controller('partialsController', ['$scope','$compile', 'Partials','$location', function($scope, $compile, Partials, $location){
             $scope.lessons = [
                 {
                     name: 'Lesson 1',
@@ -31,6 +31,10 @@
                     link: 'storage'
                 }
             ];
+
+            $scope.goHome = function(){
+                $location.path('/');
+            };
 
             $scope.loadPartial = function(id){
                 Partials.get('partials/'+id+'.htm', function(d){
