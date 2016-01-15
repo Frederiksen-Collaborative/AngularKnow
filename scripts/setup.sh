@@ -4,4 +4,4 @@ npm install bower
 bower cache clean
 bower install
 npm install
-cat "Setup complete..."
+echo "Setup complete..."
