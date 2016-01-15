@@ -1,16 +1,7 @@
 {
   "name": "angularKnow",
   "version": "1.0.0",
-  "dependencies": {
-    "angular": "angular/bower-angular#~1.4.8",
-    "angular-resource": "angular/bower-angular-resource#~1.4.8",
-    "angular-messages": "angular/bower-angular-messages#~1.4.8",
-    "angular-bootstrap": "angular-ui/bootstrap-bower#~0.14.3",
-    "ngstorage": "gsklee/ngStorage#~0.3.10",
-    "angular-route": "angular/bower-angular-route#~1.4.8",
-    "jquery": "components/jquery#~2.2.0",
-    "bootstrap": "twbs/bootstrap#~3.3.6"
-  },
+  "dependencies": {  },
   "exportsOverride": {
     "bootstrap": {
       "js": "**/bootstrap.js",
