@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ..
-npm install bower
+npm install -g bower
 bower cache clean
 bower install
 npm install
