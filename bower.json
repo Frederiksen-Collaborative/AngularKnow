@@ -11,10 +11,10 @@
     "jquery": "components/jquery#~2.2.0",
     "bootstrap": "twbs/bootstrap#~3.3.6"
   },
-  "exportsOverride":{
-    "bootstrap":{
-      "js":"**/bootstrap.js",
-      "css":"**/*.css"
+  "exportsOverride": {
+    "bootstrap": {
+      "js": "**/bootstrap.js",
+      "css": "**/*.css"
     }
   }
 }
