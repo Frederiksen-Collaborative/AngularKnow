@@ -1,0 +1,11 @@
+{
+  "name": "angularKnow",
+  "version": "1.0.0",
+  "dependencies": {  },
+  "exportsOverride": {
+    "bootstrap": {
+      "js": "**/bootstrap.js",
+      "css": "**/*.css"
+    }
+  }
+}
